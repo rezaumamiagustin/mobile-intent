@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
         <Button
+            android:onClick="handleExplicitIntent"
             android:id="@+id/button_explicit"
             android:text="@string/explicit_intent"
             android:layout_width="match_parent"
@@ -17,6 +18,7 @@
             />
 
         <Button
+            android:onClick="handleImplicitIntent"
             android:id="@+id/button_implicit"
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
@@ -24,6 +26,7 @@
             />
 
         <Button
+            android:onClick="handleBundle"
             android:id="@+id/button_bundle"
             android:text="@string/android_bundle"
             android:layout_width="match_parent"
@@ -31,6 +34,7 @@
             />
 
         <Button
+            android:onClick="parcelable"
             android:id="@+id/button_parcelable"
             android:text="@string/parcelable"
             android:layout_width="match_parent"
@@ -38,6 +42,7 @@
             />
 
         <Button
+            android:onClick="handleExit"
             android:id="@+id/button_exit"
             android:text="@string/exit"
             android:layout_width="match_parent"
